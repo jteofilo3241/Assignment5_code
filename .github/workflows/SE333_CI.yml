@@ -32,7 +32,7 @@ jobs:
           path: target/checkstyle-result.xml
       - name: Run Maven Test
         ##TODO
-        run: mvn -B Test
+        run: mvn -B test
       - name: Jacoco Report
         ##TODO
-        run: mvn -B jacoco:Report
+        run: mvn -B jacoco:report
