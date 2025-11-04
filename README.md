@@ -1,1 +1,1 @@
-![Build Status](https://github.com/jteofilo3241/Assignment5_code/actions/workflows/SE333_CI.yml/badge.svg?branch=main)
+[![SE333_CI](https://github.com/jteofilo3241/Assignment5_code/actions/workflows/SE333_CI.yml/badge.svg?branch=main)](https://github.com/jteofilo3241/Assignment5_code/actions/workflows/SE333_CI.yml)
