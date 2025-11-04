@@ -8,7 +8,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
-//import static jdk.internal.classfile.impl.verifier.VerifierImpl.verify;
+
 import static org.junit.jupiter.api.Assertions.*;
 import org.example.Barnes.BookDatabase;
 import org.example.Barnes.BuyBookProcess;
