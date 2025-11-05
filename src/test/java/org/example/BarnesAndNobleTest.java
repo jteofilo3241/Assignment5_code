@@ -10,16 +10,17 @@ import org.junit.jupiter.api.Test;
 
 
 import static org.junit.jupiter.api.Assertions.*;
-import org.example.Barnes.BookDatabase;
-import org.example.Barnes.BuyBookProcess;
+
 
 
 import java.util.Map;
-import java.util.Objects;
+
 
 
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.verify;
+
 
 public class BarnesAndNobleTest {
     @Test
@@ -35,6 +36,7 @@ public class BarnesAndNobleTest {
         PurchaseSummary summary = barnesAndNoble.getPriceForCart(map);
 
         assertEquals(30,summary.getTotalPrice());
+        verify(bookDatabase).findByISBN("12345");
 
     }
     @Test
